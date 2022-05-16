@@ -60,9 +60,9 @@ def place_the_robot(position_string)
   o = array[7]
 
   if x < 0 || x > 5
-    puts 'X has to be between 1 and 6'
+    puts 'X has to be between 0 and 5'
   elsif y < 0 || y > 5
-    puts 'Y has to be between 1 and 6'
+    puts 'Y has to be between 0 and 5'
   elsif !'NSWE'.include?(o)
     puts 'The orientation has to be in NWSE'
   else
