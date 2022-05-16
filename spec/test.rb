@@ -76,6 +76,6 @@ describe "#place_the_robot" do
   end
 
   it "should return the position when the command is right" do
-    expect(place_the_robot("PLACE12N")).to eq({x:0,y:1,o:'N'})
+    expect(place_the_robot("PLACE12N")).to eq({x:1,y:2,o:'N'})
   end
 end

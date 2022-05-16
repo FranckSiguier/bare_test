@@ -49,7 +49,7 @@ while true
       puts 'The Robot is facing an edge, you need to turn before moving'
     end
   when 'REPORT'
-    puts "#{position[:x] + 1}, #{position[:y] + 1}, #{position[:o]}"
+    puts "#{position[:x]}, #{position[:y]}, #{position[:o]}"
   when 'EXIT'
     exit
   end

@@ -55,8 +55,8 @@ def place_the_robot(position_string)
   pos = false
   array = position_string.split("")
   return pos if array.size > 8 
-  x = array[5].to_i - 1
-  y = array[6].to_i - 1
+  x = array[5].to_i
+  y = array[6].to_i
   o = array[7]
 
   if x < 0 || x > 5
